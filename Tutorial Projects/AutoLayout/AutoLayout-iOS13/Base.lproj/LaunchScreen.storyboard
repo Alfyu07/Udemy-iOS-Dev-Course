@@ -35,12 +35,12 @@
                         <constraints>
                             <constraint firstItem="fEb-pf-Q9X" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="0YC-XV-xhi"/>
                             <constraint firstAttribute="bottom" secondItem="fEb-pf-Q9X" secondAttribute="bottom" id="2Wm-ic-rwc"/>
-                            <constraint firstItem="y7J-8q-haP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="6ge-v1-Hms"/>
-                            <constraint firstItem="Iff-9M-PPJ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Ge8-JL-zyF"/>
-                            <constraint firstItem="y7J-8q-haP" firstAttribute="top" secondItem="Iff-9M-PPJ" secondAttribute="bottom" constant="30" id="UGq-CL-haI"/>
                             <constraint firstItem="fEb-pf-Q9X" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="WMg-6G-GsD"/>
-                            <constraint firstItem="Iff-9M-PPJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="bE5-F9-Xhe"/>
+                            <constraint firstItem="y7J-8q-haP" firstAttribute="top" secondItem="Iff-9M-PPJ" secondAttribute="bottom" constant="30" id="eXI-vg-GnH"/>
                             <constraint firstItem="fEb-pf-Q9X" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="fCS-RS-SyD"/>
+                            <constraint firstItem="Iff-9M-PPJ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="g7r-fd-Mzj"/>
+                            <constraint firstItem="Iff-9M-PPJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hvF-G9-gXV"/>
+                            <constraint firstItem="y7J-8q-haP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="w0x-WO-vZK"/>
                         </constraints>
                     </view>
                 </viewController>
