@@ -11,9 +11,13 @@ import AVFoundation
 
 
 class ViewController: UIViewController {
-    let softTime = 5
-    let mediumTime = 8
-    let hardTime = 12
+     
+    
+    let eggTimes: Dictionary<String, Int> = [
+        "Soft" : 300,
+        "Medium" : 420,
+        "Hard" : 720
+    ]
     
     @IBOutlet weak var progressView: UIProgressView!
     var timer: Timer?
@@ -25,16 +29,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func hardnessSelected(_ sender: UIButton) {
-        
         let hardness = sender.currentTitle!
-        if hardness == "Soft"{
-            activateTimer(seconds: softTime)
-        } else if hardness == "Medium"{
-            activateTimer(seconds: mediumTime)
-            
-        } else if hardness == "Hard"{
-            activateTimer(seconds: hardTime)
-        }
+        activateTimer(seconds: eggTimes[hardness]!)
     }
     
     func activateTimer(seconds: Int){
