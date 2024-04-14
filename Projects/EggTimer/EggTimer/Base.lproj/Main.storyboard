@@ -149,6 +149,7 @@
                     </view>
                     <connections>
                         <outlet property="progressView" destination="a73-MG-XeI" id="09j-hD-Udt"/>
+                        <outlet property="titleLabel" destination="XLm-5r-pSP" id="vwF-XS-c9z"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
